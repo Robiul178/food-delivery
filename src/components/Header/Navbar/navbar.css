@@ -1,0 +1,45 @@
+@media only screen and (max-width:581px) {
+    .nav-link {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-link-mobile {
+        position        : absolute;
+        display         : flex;
+        flex-direction  : column;
+        align-items     : center;
+        justify-content : center;
+        left            : 15%;
+        top             : 50px;
+        background-color: white;
+        width           : 70%;
+        padding         : 10px;
+        border-radius   : 10px;
+        box-shadow      : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .nav-link-mobile a {
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and (min-width:581px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.count-number {
+    position        : absolute;
+    display         : block;
+    left            : 15px;
+    top             : -9px;
+    background-color: orange;
+    padding         : 0px 9px;
+    border-radius   : 50%;
+    font-size       : 14px;
+}
